@@ -7,7 +7,7 @@ from IPython.display import display, Markdown
 from gtts import gTTS
 import speech_recognition as sr
 
-GOOGLE_GEMINI_API_KEY = "AIzaSyBNXdz_uWo_HiOe8haOZw5Tz93nYBByZ_U"
+GOOGLE_GEMINI_API_KEY = ""
 genai.configure(api_key=GOOGLE_GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 

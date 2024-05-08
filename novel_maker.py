@@ -71,7 +71,7 @@ def add_image_to_pdf(pdf_path, image_path, content):
 
 def get_raw_story(idea):
 
-    genai.configure(api_key="AIzaSyD0aUP2_GzokzvP6FYswoD2rsjCZtJGt98")
+    genai.configure(api_key="GEMINI_API_KEY") #<--- replace with your Gemini API key
 
     # Set up the model
     generation_config = {
